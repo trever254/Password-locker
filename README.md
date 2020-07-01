@@ -13,3 +13,6 @@
 <li>The user should create his own acount to log in to the account</li>
 <li>The user can be provided with new password for an account they have never registered for. </li>
 <li>The credentials can be copied by the user of the application</li>
+
+<h3>Technologies used</h3>
+<li>Python3.6</li>
