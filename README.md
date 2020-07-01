@@ -16,3 +16,6 @@
 
 <h3>Technologies used</h3>
 <li>Python3.6</li>
+
+<h2>Acknowledgements</h2>
+<p>I would like to thank my Technical mentor Sylvia Mbugua for understanding my challenges i was going through as i was doing this process while i was struggling with sickness</p>
