@@ -76,3 +76,17 @@ class TestUser(unittest.TestCase):
 		twitter = Credential('Jane','Twitter','maryjoe','pswd100')
 		twitter.save_credentials()
 		self.assertEqual(len(Credential.credentials_list),2)
+
+         def test_generate_password(self):
+		'''
+		Test to check if the generate password generates 8 character long alphanumeric numbers
+		'''
+		self.twitter = Credential('Twitter','maryjoe','')
+		self.twitter.password = generate_password()
+		self.assertEqual()
+def tearDown(self):
+    		'''
+		Function to clear the credentials list after every test
+		'''
+		Credential.credentials_list = []
+		User.users_list = []
