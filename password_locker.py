@@ -20,3 +20,10 @@ def save_user(user):
 	'''
 	checking_user = Credential.check_user(first_name,password)
 	return checking_user   
+    
+    def generate_password():
+	'''
+	Function to generate a password automatically
+	'''
+	gen_pass = Credential.generate_password()
+	return gen_pass
