@@ -9,12 +9,13 @@ class TestUser(unittest.TestCase):
 	Args:
 	    unittest.TestCase: helps in creating test cases
 	'''
-    
-    def setUp(self):
+def setUp(self):
     		'''
 		Function to create a user account before each test
 		'''
 		self.new_user = User('Trever','A\'ku\'mu','pswd')
+
+    
 
 	def test__init__(self):
 		'''
